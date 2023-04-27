@@ -17,6 +17,7 @@
 }
 .keyboard {
     width:704px;
+    height: 230px;
     margin:0 auto;
     padding:5px;
     padding-left:0;
@@ -30,6 +31,7 @@
     width:40px;
     height:40px;
     margin-left:6px;
+    margin-bottom: 6px;
     font-weight:500;
     line-height:40px;
     text-align:center;
@@ -38,17 +40,27 @@
     border-radius:3px;
     cursor:pointer;
     user-select:none;
-    transition:border-radius 0.3s, background-color 0.3s
+    transition:border-radius 0.5s, background-color 0.5s
+}
+.active, .keyboard_key:hover{
+    background-color:#2cfd72;
+    border-radius:50px;
+    transition:border-radius 0.5s, background-color 0.5s
+   
 }
 .Tab{
     width:50px;
 }
 .Backspace,.CapsLock,.ShiftLeft{
-    width:100px
+    width:100px;
 }
 .Enter {
-    width:86px
+    width:86px;
 }
 .Space{
-    width:330px
+    width:330px;
 }
+/* .active{
+    background-color:#2cfd72;
+    border-radius:50px
+} */

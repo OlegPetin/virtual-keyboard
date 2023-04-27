@@ -128,9 +128,9 @@ class Keyboard {
         });
         this.keyboardWrapper.append(row);
       });
+
       return this.keyboardWrapper;
     }
-
 
 }
 export default Keyboard;
