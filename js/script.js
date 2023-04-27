@@ -1,21 +1,5 @@
 // import langArr from "./lang.js";
-// let h1 = document.createElement('h1');
-// h1.className = "text-center";
-// h1.innerHTML = "RSS Virtual Keyboard";
-// document.body.append(h1);
-// let div = document.createElement('div');
-// div.id = "keyboard";
-// document.body.append(div);
 
-// let keyboard = [];
-// document.onkeydown = function(event) {
-//     console.log(event);
-//     keyboard.push(event.code);
-//     console.log(keyboard);
-// }
-// function init() {
-
-// }
 const lang = JSON.parse(localStorage.getItem("lang")) || "en";
 const langArr = {
   en : {
@@ -668,7 +652,6 @@ class Keyboard {
 
           const span = document.createElement("span");
           console.log(typeof keyLang[key],key)
-          // span.textContent = langArr.en.KeyM.small;
           span.textContent = keyLang[key].small;
           button.append(span);  
           row.append(button);
