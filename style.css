@@ -43,7 +43,7 @@
     transition:border-radius 0.5s, background-color 0.5s
 }
 .active, .keyboard_key:hover{
-    background-color:#2cfd72;
+    background-color:#2c5dfd;
     border-radius:50px;
     transition:border-radius 0.5s, background-color 0.5s
    
