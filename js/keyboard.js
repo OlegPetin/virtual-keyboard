@@ -105,6 +105,16 @@ class Keyboard {
       const keyboardWrapper = this.createKeyboard(langArr[lang]);
       keyboard.append(keyboardWrapper);
       document.body.append(wrapper);
+
+      const description = document.createElement("p");
+      description.classList.add("description");
+      description.textContent = "Клавиатура создана в операционной системе Windows";
+      wrapper.append(description);
+  
+      const language = document.createElement("p");
+      language.classList.add("language");
+      language.textContent = "Для переключения языка комбинация: левыe Shift + Alt";
+      wrapper.append(language);
    
     }
 
