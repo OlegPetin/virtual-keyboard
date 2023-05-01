@@ -83,7 +83,6 @@ class Keyboard {
         this.isCaps = false;
     }
     
-
     createKeyboardWrapper(lang) {
       const wrapper = document.createElement("div");
       wrapper.classList.add("wrapper");      
